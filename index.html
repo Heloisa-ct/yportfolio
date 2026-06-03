@@ -7,7 +7,6 @@
     <title>Meu Portfolio</title>
     <link rel="stylesheet" href="index.css">
 
-
 </head>
 
 <body>
@@ -18,27 +17,35 @@
                 <h1>PORTFÓLIO</h1>
                 <p class="fontenome">Heloisa </p>
             </div>
-            <div></div>
+            <div>
         </header>
 
         <aside class="sidebar">
-            <div class="tituloidiomas">IDIOMAS</div>
+            <div class="tituloidiomas"><strong>IDIOMAS</strong></div>
             <ul>
                 <li>
-                    <p class="fontecontatos">Português: 100% </p>
+                    <p class="fontecontatos">Português</p>
+                    <input type="range" value="100" oninput="this.value=100" onkeydown="event.preventDefault()">
                 </li>
                 <li>
-                    <p class="fontecontatos">Inglês: 50% </p>
+                    <p class="fontecontatos">Inglês</p>
+                    <input type="range" value="50" oninput="this.value=50" onkeydown="event.preventDefault()">
                 </li>
                 <li>
-                    <p class="fontecontatos">Espanol: 50% </p>
+                    <p class="fontecontatos">Espanhol</p>
+                    <input type="range" value="50" oninput="this.value=50" onkeydown="event.preventDefault()">
+                </li>
+                <li>
+                    <p class="fontecontatos">Libras</p>
+                    <input type="range" value="30" oninput="this.value=30" onkeydown="event.preventDefault()">
                 </li>
             </ul>
-            <div class="titulohobbies">HOBBIES</div>
+            <div class="titulohobbies"><strong>HOBBIES</strong></div>
             <p class="fontecontatos">✈️ Viagens</p>
             <p class="fontecontatos">📷 Fotografia</p>
+            <p class="fontecontatos">🏋️‍♂️ Academia</p>
 
-            <div class="titulocontato">CONTATOS</div>
+            <div class="titulocontato"><strong>CONTATOS</strong></div>
             <p class="fontecontatos"> <img src="img/mail.png" alt="Ícone email" width="25" height="25">
                 heloisa@email.com.br
             </p>
@@ -47,44 +54,89 @@
             <p class="fontecontatos"><img src="img/house.png" alt="Ícone email" width="25" height="25"> Rua:Flores, nº
                 88;
                 Cidade: Feliz</p>
+
+
+            <div class="titulosiga-me"><strong>SIGA-ME</strong></div>
+            <!-- <p class="fontecontatos"> <img src="img/instagram.png" alt="Ícone email" width="25" height="25">
+                 Instagram
+             </p> -->
+             
+            <!-- ########################         -->
+            <div class="social-container">
+                <a href="#" target="_blank" class="social-link"><img src="img/instagram.png" alt="Instagram" width="25" height="25"
+                        class="social-icon"></a>
+                <a href="#" target="_blank" class="social-link"><img src="img/github.png" alt="GitHub" width="25" height="25"
+                        class="social-icon"></a>
+                <a href="#" target="_blank" class="social-link"><img src="img/linkedin.png" alt="LinkedIn" width="25" height="25"
+                        class="social-icon"></a>
+                <a href="#" target="_blank" class="social-link"><img src="img/x-twitter.png" alt="X Twitter"width="25" height="25"
+                        class="social-icon"></a>
+            </div>
+            <!--######################## -->
+
         </aside>
 
         <!-- Conteúdo Principal -->
         <main class="main-content">
             <!-- Seção de Formação -->
             <section class="conteudo1">
-                <h2>Formação</h2>
+                <h2>Sobre Mim</h2>
 
                 <div class="formacao-card">
-                    <h3>Técnico em Informática</h3>
-                    <p>Desenvolvimento de sistemas</p>
+                    <p>Pode me chamar de Lolo, sou enfermeira e técnica de enfermagem.
+                        A tecnologia da informação entra para acrescentar meus conhecimentos</p>
                 </div>
-                <div class="formacao-card">
-                    <h3>Enfermagem</h3>
-                    <p>Atendimento, saúde</p>
-                </div>
-
             </section>
+
             <section class="conteudo2">
                 <h2>Formação</h2>
 
                 <div class="formacao-card">
-                    <h3>Técnico em Informática</h3>
-                    <p>Desenvolvimento deasdasdasdasdasdasdasdasdasdaswd sistemas</p>
+                    <li>
+                        <p>SENAC: Técnico em Informática</p>
+                    </li>
+                    <li>
+                        <p>UNIUBE: Enfermagem</p>
+                    </li>
                 </div>
-                <div class="formacao-card">
-                    <h3>Enfermagem</h3>
-                    <p>Atendimento, saúde</p>
-                </div>
-
-
             </section>
-            <!-- <main class="content">
+
+            <section class="conteudo3">
+                <h2>Experiências</h2>
+
+                <div class="formacao-card">
+                    <li>
+                        <p>TI: Desenvolvimento de web HTML, CSS, Java Script e Python</p>
+                    <li>
+                    <li>
+                        <p>Hospitais: Pediatria, Centros Cirurgico, Neurologia</p>
+                    </li>
+                </div>
+
+
+                <!-- <main class="content">
             CONTENT
         </main> -->
         </main>
+
         <footer class="footer">
-            FOOTER
-        </footer>
+            <footer class="footer">
+                <div class="footer-container">
+
+                    <!-- Coluna 3: Redes Sociais
+        <div class="footer-col">
+            <h3>Siga-me</h3>
+        </div> -->
+                </div>
+
+
+                <!-- Barra de Direitos Autorais -->
+                <div class="footer-bottom">
+                    <p>&copy; 2026. Todos os direitos reservados.</p>
+                </div>
+
+            </footer>
     </div>
+
+
 </body>
